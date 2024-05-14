@@ -31,7 +31,7 @@ const directories =
              'https://github.com/BurgahJasper/LSDManagement',
              'Software created to webscrape fake political information and present it in a legible way'
             ],
-            ['American Deer Simulator',
+            ['American Deer Simulator (Private Repo, Whoops)',
              'https://github.com/BurgahJasper/AmericanDeerSimulator',
              '3D Godot Game created to represent the life of a deer in America'
             ],
@@ -269,7 +269,7 @@ term.on('click', '.directory', function()
 function ready() 
 {
    term.echo(() => (render('Jasper\'s Terminal')))
-       .echo('<white>Welcome to my Terminal Portfolio</white>\n').resume();
+       .echo('<white>Welcome to my Terminal Portfolio! Start by typing "help".</white>\n').resume();
 }
 
 function render(text) 
