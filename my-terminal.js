@@ -199,6 +199,7 @@ const commands =
             '* <a href="https://github.com/patorjk/figlet.js/">Figlet.js</a>',
             '* <a href="https://github.com/jcubic/isomorphic-lolcat">Isomorphic Lolcat</a>',
             '* <a href="https://jokeapi.dev/">Joke API</a>',
+            '* <a href="https://www.freecodecamp.org/news/how-to-create-interactive-terminal-based-portfolio/">Jakub T. Jankiewicz Freecodecamp Terminal Portfolio Tutorial</a>',
             ''
         ].join('\n');
     },
@@ -293,5 +294,3 @@ function hex(color)
         return n.toString(16).padStart(2, '0');
     }).join('');
 }
-
-github('jcubic/jquery.terminal');
